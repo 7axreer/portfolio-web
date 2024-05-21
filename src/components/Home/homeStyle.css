@@ -1,0 +1,28 @@
+.home__content {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+
+}
+
+.home__texts {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+    height: 100%;
+    
+}
+
+
+.text-span {
+    color: var(--secondC);
+
+}
+
+.home__des {
+    width: 450px;
+
+}

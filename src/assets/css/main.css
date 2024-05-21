@@ -1,0 +1,82 @@
+@import url(../css/font.css);
+
+::-webkit-scrollbar {
+    display: none;
+
+}
+
+:root {
+    /* ! COLOR */
+    --mainC: #0f0f0f;
+    --secondC: #8fff86;
+    --whiteC: #ffffff;
+
+    /* ! FONT ROOT */
+    --syneRegular: "Syne-Regular";
+    --syneMedium: "Syne-Medium";
+    --syneSemiBold: "Syne-SemiBold";
+    --syneBold: "Syne-Bold";
+}
+
+.container {
+    padding: 0 50px;
+    margin: 0 auto;
+}
+
+.wrap {
+    width: 100%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: var(--syneRegular);
+    scroll-behavior: smooth;
+}
+
+ul {
+    list-style: none;
+
+}
+
+body {
+    background: var(--mainC);
+    color: var(--whiteC);
+}
+
+.main__title {
+    color: #7e7e7e;
+
+}
+
+.main__text {
+    font-size: 96px;
+    line-height: 96px;
+
+}
+
+.main__des {
+    width: 450px;
+
+}
+
+.window__top {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 13px;
+    cursor: pointer;
+
+}
+
+.line {
+    position: absolute;
+    bottom: 10px;
+    width: 2px;
+    height: 295px;
+    background: #4D81EE;
+    /* z-index: -1; */
+
+}

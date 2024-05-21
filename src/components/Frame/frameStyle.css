@@ -1,0 +1,150 @@
+
+.line__top {
+    position: fixed;
+    left: 15px;    
+    right: 15px;
+    top: 15px;
+    height: 30px;
+    border: 1px solid #7e7e7e;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 5px 5px 0 0;
+    z-index: 1112;
+
+}
+.line__left {
+    position: fixed;
+    left: 15px;    
+    bottom: 15px;
+    top: 15px;
+    width: 30px;
+    border: 1px solid #7e7e7e;
+    z-index: 1112;
+
+
+}
+.line__right {
+    position: fixed;
+    bottom: 15px;    
+    right: 15px;
+    top: 15px;
+    border: 1px solid #7e7e7e;
+    z-index: 1112;
+
+
+}
+.line__bottom {
+    position: fixed;
+    bottom: 15px;    
+    right: 15px;
+    left: 15px;
+    height: 30px;
+    border: 1px solid #7e7e7e;
+    border-radius: 0 0 5px 5px;
+    z-index: 1112;
+
+
+}
+
+.frame__c {
+    /* border: 1px solid #7e7e7e; */
+    background: var(--mainC);
+    position: fixed;
+    z-index: 0;
+}
+
+.frame__top {
+    /* border-radius: 5px 5px 0 0; */
+    height: 45px;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1;
+}
+
+.frame__bottom {
+    /* border-radius: 0 0 5px 5px; */
+    height: 45px;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    z-index: 5;
+}
+
+.frame__left {
+    /* border-radius: 5px 0 0 5px; */
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    width: 30px;
+}
+
+.frame__right {
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    width: 0px;
+}
+
+.frame__btns {
+    display: flex;
+    gap: 10px;
+    padding-right: 15px;
+}
+.frame__btns > i {
+    cursor: pointer;
+}
+
+.frame__logo {
+    border-right: 1px solid #7e7e7e;
+    width: 29px;
+    height: 30px;
+    display: grid;
+    place-items: center;
+}
+
+.frame__list {
+    height: 100%;
+    display: grid;
+    place-content: center;
+    place-items: center;
+    gap: 15px;
+}
+
+.frame__link > a {
+    color: white;
+
+}
+
+.social__list {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    
+}
+
+.social__link {
+    font-size: 18px;
+    color: var(--whiteC);
+    transition: 0.3s;
+
+}
+
+.social__link:hover {
+    color: var(--secondC);
+
+}
+
+.name-span {
+    color: var(--secondC);
+
+}

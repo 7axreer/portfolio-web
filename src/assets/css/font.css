@@ -1,0 +1,16 @@
+@font-face {
+    font-family: "Syne-Regular";
+    src: url(../font/Syne/Syne-Regular.ttf);
+}
+@font-face {
+    font-family: "Syne-Medium";
+    src: url(../font/Syne/Syne-Medium.ttf);
+}
+@font-face {
+    font-family: "Syne-SemiBold";
+    src: url(../font/Syne/Syne-SemiBold.ttf);
+}
+@font-face {
+    font-family: "Syne-Bold";
+    src: url(../font/Syne/Syne-Bold.ttf);
+}
