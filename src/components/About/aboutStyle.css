@@ -1,4 +1,11 @@
+.about {
+    width: 100%;
+    padding-bottom: 100px;
+}
 
+.about__content {
+    width: 100%;
+}
 
 .about__texts {
     height: 100vh;
@@ -8,7 +15,6 @@
     align-items: center;
     gap: 20px;
     text-align: center;
-    position: relative;
 }
 
 .about__text-span {
@@ -17,7 +23,6 @@
 
 .aboutMe__content {
     padding-bottom: 100px;
-
 }
 
 .aboutMe__info {
@@ -26,8 +31,6 @@
 
 .info__title {
     font-size: 16px;
-        
-
 }
 
 .info__top {
@@ -47,21 +50,39 @@
     display: grid;
     width: 100%;
     gap: 30px;
-    
+}
+
+.aboutMe {
+    position: relative;
+}
+
+.aboutMe::before {
+    content: "";
+    height: 200px;
+    width: 2px;
+    left: 50%;
+    top: -30%;
+    position: absolute;
+    background: linear-gradient(0deg, rgba(77, 129, 238, 1) 0%, rgba(77, 129, 238, 1) 0%, rgba(77, 129, 238, 0) 100%);
+}
+.aboutMe::after {
+    content: "";
+    height: 200px;
+    width: 2px;
+    left: 50%;
+    bottom: -16%;
+    position: absolute;
+    background: linear-gradient(190deg, rgba(77, 129, 238, 1) 0%, rgba(77, 129, 238, 1) 0%, rgba(77, 129, 238, 0) 100%);
 }
 
 .aboutMe__content {
     display: grid;
     place-content: center;
-
-
 }
-
 
 .aboutMe__img {
     place-self: start center;
     width: 200px;
-
 }
 
 .info__texts {
@@ -69,38 +90,112 @@
     padding-left: 20px;
     display: grid;
     gap: 10px;
-    
 }
 
 .info__text {
     font-size: 18px;
     color: white;
-
 }
 
 .info__firstSpan {
     color: var(--secondC);
-
 }
 
 .info__secondSpan {
-    color: #4D81EE;
-
+    color: #4d81ee;
 }
 
 .info__thirdSpan {
-    color: #E14F62;
+    color: #e14f62;
     /* #91D1F8 */
     /* #E1B84F */
-
 }
 
 .info__fourthSpan {
-    color: #E1B84F;
-
+    color: #e1b84f;
 }
 
 .info__fifthSpan {
-    color: #91D1F8;
+    color: #91d1f8;
+}
+
+.workStudy {
+    display: grid;
+    place-content: start center;
+    position: relative;
+}
+
+.workStudy::after {
+    content: '';
+    height: 2px;
+    width: 100px;
+    right: -28%;
+    bottom: 50%;
+    position: absolute;
+    background: linear-gradient(60deg, rgba(77, 129, 238, 1) 0%, rgba(77, 129, 238, 1) 0%, rgba(77, 129, 238, 0) 100%);
+    
+
+}
+
+.studyWork:after {
+    content: '';
+    height: 2px;
+    width: 100px;
+    left: -28%;
+    bottom: 50%;
+    position: absolute;
+    background: linear-gradient(260deg, rgba(77, 129, 238, 1) 0%, rgba(77, 129, 238, 1) 0%, rgba(77, 129, 238, 0) 100%); 
+
+}
+
+.work {
+    width: 400px;
+
+}
+
+.work__top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #505050;
+    border-radius: 5px 5px 0 0;
+    padding: 8px 10px;
+    background: var(--firstC);
+}
+
+.workAndStudy {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.work__main {
+    border: 1px solid #505050;
+    background: var(--firstC);
+    border-radius: 0 0 5px 5px;
+    padding: 20px 30px;
+    border-top: unset;
+    display: grid;
+    place-content: start center;
+    width: 100%;
+    gap: 40px;
+    text-align: center;
+
+}
+
+.work__box {
+    display: grid;
+    gap: 10px;
+
+}
+
+.work__main-title {
+    font-size: 32px;
+    color: var(--secondC);
+
+}
+.work__main-name {
+    font-size: 22px;
+    color: #e14f62;
 
 }
